@@ -1,0 +1,26 @@
+body{
+    margin: 0.2px;
+    background-color: bisque;
+}
+header{
+    background-color: rgb(26, 24, 24);
+    
+}
+.logo{
+    border-color: rgb(26,24,24);
+    border-radius: 50%;
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+#buscar{
+    width: 400px;
+    height: 35px;
+    border-color: bisque;
+    background-color: bisque;
+    position: absolute;
+    top: 77px;
+    left: 385px;
+    
+}

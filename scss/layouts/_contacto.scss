@@ -1,0 +1,46 @@
+.contactos{
+    border: solid;  
+    padding: 15px;
+
+}
+
+.nombres{
+    position: relative;
+    bottom: 5px;
+}
+.nombres input{
+    width: 398px;
+}
+/*.columna1{
+    position: relative;
+    left: auto;
+}
+.columna2{
+    position: absolute;
+    top: 290px;
+    left: 265px;
+}
+.mensage{
+    position: relative;
+    top: 5px;
+    left: auto;
+}
+.mensage textarea{
+        width: 399px;
+}
+.botones{
+    position: relative;
+    top: 5px;
+    left: auto;
+}
+.botones button{
+    width: 199.5px;
+}*/
+
+.tiendas{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    padding: 30px;
+
+}

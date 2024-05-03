@@ -1,0 +1,21 @@
+main{
+    background-color: bisque;
+    
+    img{
+        width: 400px;
+        height: 400px;
+        object-fit: cover;
+    }
+    .parrafo1{
+        background-color: bisque;
+        padding: 80px;
+        font-family:initial;
+        font-size: large;
+    }
+    p{
+        margin-left: 15%;
+        width: 75%;
+        height: 100%;
+        text-align: center;
+    }
+}

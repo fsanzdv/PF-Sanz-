@@ -1,0 +1,62 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.product {
+    flex: 100%;
+    max-width: 25%; 
+    margin-bottom: 20px;
+}
+
+
+
+/*  dispositivos móviles */
+@media screen and (max-width: 720px) {
+    .product {
+        flex:100%;
+        max-width: 34%; 
+        img{
+            object-fit: contain;
+        }
+    }
+
+    .columnas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .columna1,
+    .columna2 {
+        width: 100%;
+    }
+}
+
+/* tablet  */
+@media screen and (min-width: 769px) {
+    .columnas {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .columna1,
+    .columna2 {
+        width: 50%;
+    }
+}
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+    .columna1,
+    .columna2 {
+        width: 33.33%;
+    }
+}
