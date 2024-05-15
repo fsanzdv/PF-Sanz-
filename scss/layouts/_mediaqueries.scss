@@ -60,3 +60,39 @@
         width: 33.33%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .general {
+        display: flex;
+        flex-direction: column;
+    }
+    .imagenes {
+        order: 2; /* Cambiar el orden de las imágenes */
+    }
+}
+@media screen and (min-width: 769px) {
+    .general {
+        display: flex;
+        flex-direction: row;
+    }
+    .parrafos {
+        flex: 1;
+        margin-left: 20px; /* Añadir un margen entre la imagen y el texto */
+    }
+}
+.titulos {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo h1 {
+    font-size: 2em;
+}
+
+.subtitulos {
+    margin-top: 0;
+}
+
+.parrafos p {
+    text-align: justify;
+}

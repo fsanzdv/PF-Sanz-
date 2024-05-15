@@ -5,7 +5,17 @@
     text-align: center;
     font-size: 40px;
 }
+.general{
+    display: flex;
+    padding: 5%;
 
+    img{
+        object-fit: contain;
+    }
+}
+h2{
+    text-align: center;
+}
 .nosotros{
     display: flex;
     padding: 20px;

@@ -7,7 +7,8 @@ main{
         object-fit: cover;
     }
     .parrafo1{
-        background-color: bisque;
+        /*background-color: bisque;*/
+        background-image: radial-gradient(ellipse 700px 100px,bisque, rgba(206, 125, 26, 0.479) );
         padding: 80px;
         font-family:initial;
         font-size: large;

@@ -1,0 +1,36 @@
+@mixin radial-background {
+    background-image: radial-gradient(ellipse 700px 100px, $gradient-start, $gradient-end);
+}
+
+
+@mixin center-text {
+    text-align: center;
+}
+
+
+@mixin paragraph {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+main {
+    background-color: $background-color;
+    
+    img {
+        width: $img-width;
+        height: $img-height;
+        object-fit: cover;
+    }
+
+    .parrafo1 {
+        @include radial-background;
+        padding: 80px;
+        font-family: initial;
+        font-size: large;
+        color: $text-color;
+
+        @include center-text;
+        @include paragraph;
+    }
+}

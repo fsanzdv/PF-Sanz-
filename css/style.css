@@ -17,6 +17,11 @@ header {
   position: relative;
 }
 
+.nav-link.active:hover {
+  background-color: bisque;
+  border-radius: 50%;
+}
+
 #buscar {
   width: 400px;
   height: 35px;
@@ -69,7 +74,8 @@ main img {
   object-fit: cover;
 }
 main .parrafo1 {
-  background-color: bisque;
+  /*background-color: bisque;*/
+  background-image: radial-gradient(ellipse 700px 100px, bisque, rgba(206, 125, 26, 0.479));
   padding: 80px;
   font-family: initial;
   font-size: large;
@@ -140,6 +146,15 @@ main p {
   text-align: center;
 }
 
+button:hover {
+  background-color: #07BC07;
+  color: black;
+}
+
+.card {
+  margin-left: 40%;
+}
+
 .carrito {
   display: flex;
   border: solid;
@@ -188,6 +203,18 @@ main p {
   font-size: 40px;
 }
 
+.general {
+  display: flex;
+  padding: 5%;
+}
+.general img {
+  object-fit: contain;
+}
+
+h2 {
+  text-align: center;
+}
+
 .nosotros {
   display: flex;
   padding: 20px;
@@ -225,6 +252,10 @@ main p {
   padding: 15px;
 }
 
+.formulario {
+  padding: 5%;
+}
+
 .nombres {
   position: relative;
   bottom: 5px;
@@ -234,31 +265,6 @@ main p {
   width: 398px;
 }
 
-/*.columna1{
-    position: relative;
-    left: auto;
-}
-.columna2{
-    position: absolute;
-    top: 290px;
-    left: 265px;
-}
-.mensage{
-    position: relative;
-    top: 5px;
-    left: auto;
-}
-.mensage textarea{
-        width: 399px;
-}
-.botones{
-    position: relative;
-    top: 5px;
-    left: auto;
-}
-.botones button{
-    width: 199.5px;
-}*/
 .tiendas {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -321,6 +327,41 @@ main p {
   .columna2 {
     width: 33.33%;
   }
+}
+@media screen and (max-width: 768px) {
+  .general {
+    display: flex;
+    flex-direction: column;
+  }
+  .imagenes {
+    order: 2; /* Cambiar el orden de las imágenes */
+  }
+}
+@media screen and (min-width: 769px) {
+  .general {
+    display: flex;
+    flex-direction: row;
+  }
+  .parrafos {
+    flex: 1;
+    margin-left: 20px; /* Añadir un margen entre la imagen y el texto */
+  }
+}
+.titulos {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.titulo h1 {
+  font-size: 2em;
+}
+
+.subtitulos {
+  margin-top: 0;
+}
+
+.parrafos p {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=style.css.map */
