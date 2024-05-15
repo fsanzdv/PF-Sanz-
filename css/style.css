@@ -146,7 +146,7 @@ main p {
   text-align: center;
 }
 
-button:hover {
+.product-content button:hover {
   background-color: #07BC07;
   color: black;
 }
@@ -192,6 +192,11 @@ button:hover {
   color: bisque;
   font-size: 14px;
   text-align: center;
+}
+
+button:hover {
+  background-color: #07BC07;
+  color: black;
 }
 
 .titulo {
