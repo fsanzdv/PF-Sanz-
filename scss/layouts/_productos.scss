@@ -46,19 +46,21 @@
     gap: 10px;
     justify-content: flex-start;
     align-items: center;
+
+    button{
+        text-decoration: none;
+        background-color: rgb(26, 24, 24);
+        padding: 10px;
+        border: 1px solid bisque;
+        color: bisque;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+    button:hover{
+        background-color: #07BC07;
+        color: black;
+    }
 }
 
-.product-content button{
-    text-decoration: none;
-    background-color: rgb(26, 24, 24);
-    padding: 10px;
-    border: 1px solid bisque;
-    color: bisque;
-    font-size: 14px;
-    width: 100%;
-    text-align: center;
-}
-.product-content button:hover{
-    background-color: #07BC07;
-    color: black;
-}
+

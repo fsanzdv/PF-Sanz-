@@ -61,13 +61,13 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
     .general {
         display: flex;
         flex-direction: column;
     }
     .imagenes {
-        order: 2; /* Cambiar el orden de las imágenes */
+        order: 2;
     }
 }
 @media screen and (min-width: 769px) {
@@ -77,7 +77,7 @@
     }
     .parrafos {
         flex: 1;
-        margin-left: 20px; /* Añadir un margen entre la imagen y el texto */
+        margin-left: 20px;
     }
 }
 .titulos {
