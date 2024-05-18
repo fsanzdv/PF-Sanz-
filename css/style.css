@@ -362,4 +362,27 @@ h2 {
   text-align: justify;
 }
 
+@media (max-width: 768px) {
+  .imagenes, .parrafos {
+    width: 100%;
+  }
+  .general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav .nav-item {
+    margin: 0.5rem 0;
+  }
+  .titulos .titulo {
+    padding: 1rem;
+  }
+  .subtitulos {
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
